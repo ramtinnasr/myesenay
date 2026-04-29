@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "name": "myesenay",
+  "functions": {
+    "assets/mainstream.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/assets/mainstream.js" }
+  ],
+  "trailingSlash": false
+}
