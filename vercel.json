@@ -8,7 +8,10 @@
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/mainstream.js" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/mainstream.js"
+    }
   ],
   "trailingSlash": false
 }
